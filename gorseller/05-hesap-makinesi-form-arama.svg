@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 430" width="100%" height="430">
+  <rect width="1120" height="430" rx="16" fill="#0f172a"/>
+  <text x="560" y="34" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="bold">SINAV GÖRSEL REHBERİ 5: HESAP MAKİNESİ (SUM / 4 İŞLEM) · FORM DOĞRULAMA · CANLI ARAMA</text>
+
+  <!-- Phone 1: W6 SumCalculator & 4 İşlem -->
+  <g transform="translate(25, 52)">
+    <rect width="340" height="355" rx="22" fill="#f8fafc" stroke="#2563eb" stroke-width="3"/>
+    <rect x="120" y="8" width="100" height="6" rx="3" fill="#cbd5e1"/>
+    <text x="170" y="34" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">1. W6 SumCalculator (+ / - / × / ÷)</text>
+    <text x="170" y="50" text-anchor="middle" fill="#2563eb" font-family="monospace" font-size="10">W6 / Button.md (Add two numbers)</text>
+    <rect x="20" y="62" width="300" height="270" rx="16" fill="#ffffff" stroke="#e2e8f0" stroke-width="2"/>
+    <rect x="36" y="78" width="268" height="38" rx="10" fill="#ffffff" stroke="#d4d4d8" stroke-width="1.5"/>
+    <text x="48" y="102" fill="#64748b" font-family="Arial, sans-serif" font-size="13">First number: 24</text>
+    <rect x="36" y="126" width="268" height="38" rx="10" fill="#ffffff" stroke="#d4d4d8" stroke-width="1.5"/>
+    <text x="48" y="150" fill="#64748b" font-family="Arial, sans-serif" font-size="13">Second number: 6</text>
+    <rect x="36" y="174" width="268" height="36" rx="8" fill="#2563eb"/>
+    <text x="170" y="197" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Calculate sum (+ / - / × / ÷)</text>
+    <!-- 4 Operation Row Option -->
+    <rect x="36" y="218" width="60" height="28" rx="6" fill="#16a34a"/>
+    <text x="66" y="236" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">+</text>
+    <rect x="105" y="218" width="60" height="28" rx="6" fill="#ea580c"/>
+    <text x="135" y="236" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">-</text>
+    <rect x="174" y="218" width="60" height="28" rx="6" fill="#9333ea"/>
+    <text x="204" y="236" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">×</text>
+    <rect x="244" y="218" width="60" height="28" rx="6" fill="#dc2626"/>
+    <text x="274" y="236" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">÷</text>
+    <text x="36" y="274" fill="#475569" font-family="Arial, sans-serif" font-size="13">Result:</text>
+    <text x="36" y="306" fill="#2563eb" font-family="Arial, sans-serif" font-size="24" font-weight="bold">30</text>
+  </g>
+
+  <!-- Phone 2: W4 SimpleForm & W6 EmailField / BioField -->
+  <g transform="translate(390, 52)">
+    <rect width="340" height="355" rx="22" fill="#f8fafc" stroke="#22c55e" stroke-width="3"/>
+    <rect x="120" y="8" width="100" height="6" rx="3" fill="#cbd5e1"/>
+    <text x="170" y="34" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">2. Form &amp; Doğrulama (W4 &amp; W6)</text>
+    <text x="170" y="50" text-anchor="middle" fill="#16a34a" font-family="monospace" font-size="10">SimpleForm · EmailField · BioField</text>
+    <rect x="24" y="64" width="292" height="38" rx="8" fill="#ffffff" stroke="#cccccc" stroke-width="1.5"/>
+    <text x="36" y="88" fill="#334155" font-family="Arial, sans-serif" font-size="13">Enter your name: Emel</text>
+    <rect x="24" y="112" width="292" height="38" rx="8" fill="#ffffff" stroke="#22c55e" stroke-width="2"/>
+    <text x="36" y="136" fill="#334155" font-family="Arial, sans-serif" font-size="13">emel@example.com (Geçerli ✓)</text>
+    <rect x="24" y="160" width="292" height="40" rx="8" fill="#28A745"/>
+    <text x="170" y="185" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Submit</text>
+    <!-- Green Success Container -->
+    <rect x="24" y="212" width="292" height="84" rx="8" fill="#d4edda" stroke="#c3e6cb" stroke-width="1.5"/>
+    <text x="170" y="238" text-anchor="middle" fill="#155724" font-family="Arial, sans-serif" font-size="13" font-weight="bold">Form submitted successfully!</text>
+    <rect x="44" y="250" width="252" height="34" rx="8" fill="#6C757D"/>
+    <text x="170" y="272" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="13" font-weight="bold">New Form (Reset)</text>
+    <text x="170" y="325" text-anchor="middle" fill="#f97316" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Characters remaining: 8 (BioField)</text>
+  </g>
+
+  <!-- Phone 3: W6 SearchableList -->
+  <g transform="translate(755, 52)">
+    <rect width="340" height="355" rx="22" fill="#f8fafc" stroke="#0ea5e9" stroke-width="3"/>
+    <rect x="120" y="8" width="100" height="6" rx="3" fill="#cbd5e1"/>
+    <text x="170" y="34" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">3. W6 Canlı Arama (SearchableList)</text>
+    <text x="170" y="50" text-anchor="middle" fill="#0284c7" font-family="monospace" font-size="10">W6 / TextInput.md (filter + includes)</text>
+    <rect x="24" y="64" width="292" height="42" rx="12" fill="#ffffff" stroke="#93c5fd" stroke-width="2"/>
+    <text x="38" y="90" fill="#0f172a" font-family="Arial, sans-serif" font-size="13">🔍 Search lessons... "React"</text>
+    <rect x="24" y="120" width="292" height="48" rx="12" fill="#e0f2fe"/>
+    <text x="40" y="149" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Intro to React Native</text>
+    <rect x="24" y="180" width="292" height="48" rx="12" fill="#e0f2fe"/>
+    <text x="40" y="209" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">State Management in React</text>
+    <rect x="24" y="250" width="292" height="52" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="1.5"/>
+    <text x="170" y="280" text-anchor="middle" fill="#991b1b" font-family="Arial, sans-serif" font-size="12">Eşleşme yoksa: "No lessons match your search."</text>
+    <text x="170" y="330" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">title.toLowerCase().includes(query)</text>
+  </g>
+</svg>

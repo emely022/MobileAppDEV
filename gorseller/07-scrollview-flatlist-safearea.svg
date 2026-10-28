@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 430" width="100%" height="430">
+  <rect width="1120" height="430" rx="16" fill="#0f172a"/>
+  <text x="560" y="34" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="bold">SINAV GÖRSEL REHBERİ 7: YATAY SCROLLVIEW · SÖZLEŞME ONAY · ONBOARDING ADIMLAR · DASHBOARD</text>
+
+  <!-- Phone 1: W6 WeeklySchedule (Horizontal ScrollView) -->
+  <g transform="translate(25, 52)">
+    <rect width="340" height="355" rx="22" fill="#0f172a" stroke="#38bdf8" stroke-width="3"/>
+    <rect x="120" y="8" width="100" height="6" rx="3" fill="#334155"/>
+    <text x="170" y="34" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13" font-weight="bold">1. Yatay Kaydırma &amp; Dashboard Kartı</text>
+    <text x="170" y="50" text-anchor="middle" fill="#38bdf8" font-family="monospace" font-size="10">W6 ScrollView.md &amp; View.md</text>
+
+    <!-- Horizontal Cards -->
+    <rect x="20" y="64" width="145" height="96" rx="16" fill="#1f2937" stroke="#334155" stroke-width="1.5"/>
+    <text x="34" y="88" fill="#cbd5f5" font-family="Arial, sans-serif" font-size="12">Monday</text>
+    <text x="34" y="112" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Kickoff Session</text>
+    <text x="34" y="136" fill="#94a3b8" font-family="Arial, sans-serif" font-size="11">40 min</text>
+
+    <rect x="175" y="64" width="145" height="96" rx="16" fill="#1f2937" stroke="#334155" stroke-width="1.5"/>
+    <text x="189" y="88" fill="#cbd5f5" font-family="Arial, sans-serif" font-size="12">Tuesday</text>
+    <text x="189" y="112" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Core Comp.</text>
+    <text x="189" y="136" fill="#94a3b8" font-family="Arial, sans-serif" font-size="11">60 min</text>
+
+    <!-- Dashboard Progress Card -->
+    <rect x="20" y="180" width="300" height="135" rx="18" fill="#1e293b"/>
+    <text x="36" y="210" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Daily Lesson Progress</text>
+    <text x="275" y="210" fill="#38bdf8" font-family="Arial, sans-serif" font-size="14" font-weight="bold">+12%</text>
+    <rect x="36" y="232" width="268" height="10" rx="5" fill="#0f172a"/>
+    <rect x="36" y="232" width="174" height="10" rx="5" fill="#38bdf8"/>
+    <text x="36" y="275" fill="#94a3b8" font-family="Arial, sans-serif" font-size="12">Lessons completed</text>
+    <text x="260" y="275" fill="#e2e8f0" font-family="Arial, sans-serif" font-size="12" font-weight="bold">13 / 20</text>
+  </g>
+
+  <!-- Phone 2: W6 TermsAgreement -->
+  <g transform="translate(390, 52)">
+    <rect width="340" height="355" rx="22" fill="#e2e8f0" stroke="#2563eb" stroke-width="3"/>
+    <rect x="120" y="8" width="100" height="6" rx="3" fill="#94a3b8"/>
+    <text x="170" y="34" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="14" font-weight="bold">2. W6 Terms of Service (ScrollView)</text>
+    <text x="170" y="50" text-anchor="middle" fill="#2563eb" font-family="monospace" font-size="10">W6 / ScrollView.md (TermsAgreement)</text>
+    <rect x="22" y="64" width="296" height="205" rx="16" fill="#ffffff"/>
+    <text x="36" y="92" fill="#334155" font-family="Arial, sans-serif" font-size="12">Terms of service Terms of service...</text>
+    <text x="36" y="116" fill="#334155" font-family="Arial, sans-serif" font-size="12">Terms of service Terms of service...</text>
+    <text x="36" y="140" fill="#334155" font-family="Arial, sans-serif" font-size="12">Terms of service Terms of service...</text>
+    <text x="36" y="185" fill="#0f172a" font-family="Arial, sans-serif" font-size="12" font-weight="bold">Please confirm that you have read</text>
+    <text x="36" y="205" fill="#0f172a" font-family="Arial, sans-serif" font-size="12" font-weight="bold">the agreement.</text>
+    <rect x="22" y="285" width="296" height="42" rx="8" fill="#22c55e"/>
+    <text x="170" y="311" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Accept terms / Accepted</text>
+  </g>
+
+  <!-- Phone 3: W6 OnboardingScreen -->
+  <g transform="translate(755, 52)">
+    <rect width="340" height="355" rx="22" fill="#0f172a" stroke="#22c55e" stroke-width="3"/>
+    <rect x="120" y="8" width="100" height="6" rx="3" fill="#334155"/>
+    <text x="170" y="34" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="14" font-weight="bold">3. W6 Onboarding (Adım Adım)</text>
+    <text x="170" y="50" text-anchor="middle" fill="#22c55e" font-family="monospace" font-size="10">W6 / SafeAreaView.md (OnboardingScreen)</text>
+
+    <text x="28" y="86" fill="#38bdf8" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Step 1 / 3</text>
+    <text x="28" y="122" fill="#f8fafc" font-family="Arial, sans-serif" font-size="22" font-weight="bold">Welcome to the</text>
+    <text x="28" y="150" fill="#f8fafc" font-family="Arial, sans-serif" font-size="22" font-weight="bold">React Native Course</text>
+    <text x="28" y="184" fill="#cbd5f5" font-family="Arial, sans-serif" font-size="12">You will learn core components,</text>
+    <text x="28" y="204" fill="#cbd5f5" font-family="Arial, sans-serif" font-size="12">navigation, and state management.</text>
+
+    <rect x="28" y="282" width="284" height="46" rx="12" fill="#38bdf8"/>
+    <text x="170" y="310" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="15" font-weight="bold">Continue (Son Adımda: Restart)</text>
+  </g>
+</svg>

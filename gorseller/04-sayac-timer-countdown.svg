@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 430" width="100%" height="430">
+  <rect width="1120" height="430" rx="16" fill="#0f172a"/>
+  <text x="560" y="34" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="18" font-weight="bold">SINAV GÖRSEL REHBERİ 4: SAYAÇ (COUNTER) · LİMİTLİ PROGRESS · KRONOMETRE (TIMER) · GERİ SAYIM</text>
+
+  <!-- Phone 1: W4 SimpleCounter -->
+  <g transform="translate(25, 52)">
+    <rect width="245" height="350" rx="22" fill="#f8fafc" stroke="#3b82f6" stroke-width="3"/>
+    <rect x="72" y="8" width="100" height="6" rx="3" fill="#cbd5e1"/>
+    <text x="122" y="36" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="13" font-weight="bold">1. W4 SimpleCounter</text>
+    <text x="122" y="54" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="10">W4 / 5-react-native-state.md</text>
+    <text x="122" y="130" text-anchor="middle" fill="#007AFF" font-family="Arial, sans-serif" font-size="52" font-weight="bold">4</text>
+    <circle cx="82" cy="195" r="28" fill="#007AFF"/>
+    <text x="82" y="203" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">-</text>
+    <circle cx="162" cy="195" r="28" fill="#007AFF"/>
+    <text x="162" y="203" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="24" font-weight="bold">+</text>
+    <rect x="62" y="245" width="120" height="42" rx="8" fill="#DC3545"/>
+    <text x="122" y="271" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="16" font-weight="bold">Reset</text>
+    <text x="122" y="322" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">useState(0) · +1 / -1 / 0</text>
+  </g>
+
+  <!-- Phone 2: W4 DynamicVariableExample -->
+  <g transform="translate(295, 52)">
+    <rect width="245" height="350" rx="22" fill="#f8fafc" stroke="#0284c7" stroke-width="3"/>
+    <rect x="72" y="8" width="100" height="6" rx="3" fill="#cbd5e1"/>
+    <text x="122" y="36" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="13" font-weight="bold">2. W4 DynamicVariable</text>
+    <text x="122" y="52" text-anchor="middle" fill="#0284c7" font-family="monospace" font-size="9">W4 / 3-react-native-variable-const.md</text>
+    <rect x="22" y="64" width="200" height="92" rx="10" fill="#e3f2fd" stroke="#2196f3" stroke-width="2"/>
+    <text x="122" y="114" text-anchor="middle" fill="#1976d2" font-family="Arial, sans-serif" font-size="38" font-weight="bold">10</text>
+    <text x="122" y="142" text-anchor="middle" fill="#1976d2" font-family="Arial, sans-serif" font-size="13">Progress: %100</text>
+    <circle cx="82" cy="192" r="24" fill="#007AFF"/>
+    <text x="82" y="199" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">-</text>
+    <circle cx="162" cy="192" r="24" fill="#cccccc"/>
+    <text x="162" y="199" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="20" font-weight="bold">+</text>
+    <rect x="22" y="228" width="200" height="34" rx="8" fill="#DC3545"/>
+    <text x="122" y="250" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Reset</text>
+    <text x="122" y="282" text-anchor="middle" fill="#28A745" font-family="Arial, sans-serif" font-size="11" font-weight="bold">🎉 You reached maximum value!</text>
+    <rect x="22" y="294" width="200" height="44" rx="8" fill="#f1f5f9"/>
+    <text x="122" y="313" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="10">Max: 10 | Min: 0 | Step: 1</text>
+    <text x="122" y="329" text-anchor="middle" fill="#64748b" font-family="monospace" font-size="9">disabled={!canIncrement}</text>
+  </g>
+
+  <!-- Phone 3: W4 Timer -->
+  <g transform="translate(565, 52)">
+    <rect width="245" height="350" rx="22" fill="#f8fafc" stroke="#22c55e" stroke-width="3"/>
+    <rect x="72" y="8" width="100" height="6" rx="3" fill="#cbd5e1"/>
+    <text x="122" y="36" text-anchor="middle" fill="#0f172a" font-family="Arial, sans-serif" font-size="13" font-weight="bold">3. W4 Timer (Kronometre)</text>
+    <text x="122" y="52" text-anchor="middle" fill="#16a34a" font-family="monospace" font-size="10">W4 / 6-react-native-hooks.md</text>
+    <text x="122" y="118" text-anchor="middle" fill="#333333" font-family="Arial, sans-serif" font-size="34" font-weight="bold">14 seconds</text>
+    <rect x="52" y="148" width="140" height="40" rx="8" fill="#28A745"/>
+    <text x="122" y="173" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="15" font-weight="bold">Start</text>
+    <rect x="52" y="200" width="140" height="40" rx="8" fill="#DC3545"/>
+    <text x="122" y="225" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="15" font-weight="bold">Stop</text>
+    <rect x="52" y="252" width="140" height="40" rx="8" fill="#6C757D"/>
+    <text x="122" y="277" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="15" font-weight="bold">Reset</text>
+    <text x="122" y="324" text-anchor="middle" fill="#475569" font-family="monospace" font-size="10">useEffect + setInterval</text>
+  </g>
+
+  <!-- Phone 4: W6 CountdownController -->
+  <g transform="translate(835, 52)">
+    <rect width="255" height="350" rx="22" fill="#111827" stroke="#f97316" stroke-width="3"/>
+    <rect x="77" y="8" width="100" height="6" rx="3" fill="#374151"/>
+    <text x="127" y="36" text-anchor="middle" fill="#f8fafc" font-family="Arial, sans-serif" font-size="13" font-weight="bold">4. W6 Countdown (Geri Sayım)</text>
+    <text x="127" y="52" text-anchor="middle" fill="#fb923c" font-family="monospace" font-size="10">W6 / components / Button.md</text>
+    <rect x="22" y="68" width="210" height="245" rx="18" fill="#1f2937"/>
+    <text x="40" y="98" fill="#f1f5f9" font-family="Arial, sans-serif" font-size="15" font-weight="bold">Time Remaining</text>
+    <text x="127" y="158" text-anchor="middle" fill="#38bdf8" font-family="Arial, sans-serif" font-size="44" font-weight="bold">7s</text>
+    <rect x="38" y="185" width="178" height="38" rx="6" fill="#f97316"/>
+    <text x="127" y="209" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Pause (veya Start)</text>
+    <rect x="38" y="235" width="178" height="38" rx="6" fill="#0ea5e9"/>
+    <text x="127" y="259" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="14" font-weight="bold">Reset</text>
+    <text x="127" y="334" text-anchor="middle" fill="#94a3b8" font-family="monospace" font-size="10">isRunning ? '#38bdf8' : '#f97316'</text>
+  </g>
+</svg>
